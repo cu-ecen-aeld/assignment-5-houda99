@@ -15,4 +15,4 @@ $(OUT): $(SRC)
 
 .PHONY: clean
 clean: 
-	rm -f $(OUT) *.oA
+	rm -f $(OUT) *.o 

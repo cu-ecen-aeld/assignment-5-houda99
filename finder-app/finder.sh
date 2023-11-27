@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 if [ -z "$1" ] || [ -z "$2" ]; then
     echo " Error : not enough parameters"
     exit 1
