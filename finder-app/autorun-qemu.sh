@@ -9,4 +9,6 @@ else
     echo "Completed with failure, failed with rc=${rc}"
 fi
 echo "finder-app execution complete, dropping to terminal"
+poweroff -d 20 -f
 /bin/sh
+
