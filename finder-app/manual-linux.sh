@@ -98,6 +98,7 @@ cp -a --remove-destination ${SYSROOT}/lib64/libresolv.so.2  ${OUTDIR}/rootfs/lib
 # TODO: Make device nodes
 sudo mknod -m 666 ${OUTDIR}/rootfs/dev/null c 1 3 #NULL device
 sudo mknod -m 600 ${OUTDIR}/rootfs/dev/console c 5 1 #console device
+sudo mknod -m 600 ${OUTDIR}/rootfs/dev/tty c 5 0
 sudo mknod -m 600 ${OUTDIR}/rootfs/dev/ttyAMA0 c 5 0 # <--
 
 
