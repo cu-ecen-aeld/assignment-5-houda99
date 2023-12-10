@@ -1,5 +1,5 @@
 #C Compiler
-CC = gcc
+CC = gcc	
 CFLAGS = -g -Wall -Werror -lm
 #if CROSS_COMPILE is defined use it as prefix
  ifdef CROSS_COMPILE 
